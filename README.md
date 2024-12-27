@@ -14,7 +14,9 @@ Initial 1.0
 
 ## Page
 1. Drag a *RadioButtonList* control to a page
-2. Add the class "" to the control classes property
+2. Add the class "multi-state-button" to the control classes property
+
+![](images/multi-state-class.png)
 
 ## CSS
 The CSS below is required for the correct functioning of the module. Some elements can be [customised](#customising-css) using a variables CSS file. 
