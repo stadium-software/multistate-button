@@ -1,6 +1,6 @@
 # Muti-State Button <!-- omit in toc -->
 
-A RadioButtonList displayed as a button
+A RadioButtonList displayed as a button. This control is useful when a RadioButtonList cannot be shown due to space limitations. 
 
 ![](images/view.gif)
 

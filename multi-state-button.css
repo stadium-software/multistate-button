@@ -5,7 +5,7 @@
         border-radius: var(--multi-state-button-border-radius, 10px);
         background-color: var(--multi-state-button-background-color, var(--RADIO-BUTTON-LIST-CONTAINER-BACKGROUND-COLOR));
         min-width: var(--multi-state-button-width, 100px);
-        min-height: var(--multi-state-button-height, 100px);
+        min-height: var(--multi-state-button-height, 48px);
         position: relative;
         padding: 0;
         overflow: hidden;

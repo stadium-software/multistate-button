@@ -1,6 +1,6 @@
 :root {
     --multi-state-button-width: 100px;
-    --multi-state-button-height: 100px;
+    --multi-state-button-height: 48px;
     --multi-state-button-unselected-label: 'Nothing selected';
     --multi-state-button-font-color: inherit;
     --multi-state-button-font-size: inherit;
