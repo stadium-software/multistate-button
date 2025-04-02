@@ -1,24 +1,24 @@
 :root {
-    --multi-state-button-width: 100px;
-    --multi-state-button-height: 48px;
+    --multi-state-button-width: 10rem;
+    --multi-state-button-height: 4.8rem;
     --multi-state-button-unselected-label: 'Nothing selected';
     --multi-state-button-font-color: inherit;
     --multi-state-button-font-size: inherit;
-    --multi-state-button-padding: 2px;
+    --multi-state-button-padding:  0.2rem;
     --multi-state-button-background-color: #f9f9f9;
-    --multi-state-button-border-width: 2px;
-    --multi-state-button-border-radius: 10px;
+    --multi-state-button-border-width:  0.2rem;
+    --multi-state-button-border-radius: 1rem;
     --multi-state-button-border-color: #ccc;
 
     --multi-state-button-show-tooltip: inline; /*inline or none*/
     --multi-state-button-tooltip-label: 'Click for more options';
-    --multi-state-button-tooltip-top-position: 0px;
-    --multi-state-button-tooltip-left-position: 0px;
+    --multi-state-button-tooltip-top-position: 0;
+    --multi-state-button-tooltip-left-position: 0;
     --multi-state-button-tooltip-bottom-position: unset;
     --multi-state-button-tooltip-width: 100%;
     --multi-state-button-tooltip-background-color: #ddd;
     --multi-state-button-tooltip-font-color: #333;
-    --multi-state-button-tooltip-topbottom-padding: 0px;
-    --multi-state-button-tooltip-rightleft-padding: 2px;
-    --multi-state-button-tooltip-font-size: 8px;
+    --multi-state-button-tooltip-topbottom-padding: 0;
+    --multi-state-button-tooltip-rightleft-padding:  0.2rem;
+    --multi-state-button-tooltip-font-size: 0.8rem;
 }

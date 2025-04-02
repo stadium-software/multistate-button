@@ -1,11 +1,11 @@
 .multi-state-button.radio-button-list-container {
     background: none;
     .error-border {
-        border: var(--multi-state-button-border-width, 2px) solid var(--multi-state-button-border-color, var(--RADIO-BUTTON-LIST-CONTAINER-BACKGROUND-COLOR));
-        border-radius: var(--multi-state-button-border-radius, 10px);
+        border: var(--multi-state-button-border-width, 0.2rem) solid var(--multi-state-button-border-color, var(--RADIO-BUTTON-LIST-CONTAINER-BACKGROUND-COLOR));
+        border-radius: var(--multi-state-button-border-radius, 1rem);
         background-color: var(--multi-state-button-background-color, var(--RADIO-BUTTON-LIST-CONTAINER-BACKGROUND-COLOR));
-        min-width: var(--multi-state-button-width, 100px);
-        min-height: var(--multi-state-button-height, 48px);
+        min-width: var(--multi-state-button-width, 10rem);
+        min-height: var(--multi-state-button-height, 4.8rem);
         position: relative;
         padding: 0;
         overflow: hidden;
@@ -26,7 +26,7 @@
             cursor: pointer;
             height: 100%;
             line-height: 100%;
-            padding: var(--multi-state-button-padding, 2px);
+            padding: var(--multi-state-button-padding, 0.2rem);
             margin: 0;
             background-image: none !important;
             opacity: 0;
@@ -46,12 +46,12 @@
         content: var(--multi-state-button-tooltip-label, 'Click for more options');
         background-color: var(--multi-state-button-tooltip-background-color, #ddd);
         color: var(--multi-state-button-tooltip-font-color, #333);
-        font-size: var(--multi-state-button-tooltip-font-size, 8px);
+        font-size: var(--multi-state-button-tooltip-font-size, 0.8rem);
         position: absolute;
-        top: var(--multi-state-button-tooltip-top-position, 0px);
-        left: var(--multi-state-button-tooltip-left-position, 0px);
+        top: var(--multi-state-button-tooltip-top-position, 0);
+        left: var(--multi-state-button-tooltip-left-position, 0);
         bottom: var(--multi-state-button-tooltip-bottom-position, unset);
-        padding: var(--multi-state-button-tooltip-topbottom-padding, 0px) var(--multi-state-button-tooltip-rightleft-padding, 2px);
+        padding: var(--multi-state-button-tooltip-topbottom-padding, 0) var(--multi-state-button-tooltip-rightleft-padding, 0.2rem);
         opacity: 1;
         white-space: normal;
         text-align: center;
@@ -94,4 +94,8 @@
 
 .multi-state-button>div:has(input:checked):after {
     display: none;
+}
+html {
+    min-height: 100%;
+    font-size: 62.5%;
 }
